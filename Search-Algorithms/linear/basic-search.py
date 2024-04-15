@@ -21,10 +21,8 @@ names = ['a', 'b', 'c', 'd', 'e', 'x']
 # Promt user to enter name
 name = input("Enter the name you want to search for: ")
 
-# Call the prompt and override the name function
+# Call the prompt
 result = linearSearchName(names, name)
 
 # Print whether the name was found or not
 print(f'{result}')
-
-
